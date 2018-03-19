@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class ListHelper<E> {
-    public List<E> list = Collections.synchronizedList(new ArrayList<>());
+    public List<E> list = Collections.synchronizedList(new ArrayList<E>());
 
     public boolean putIfAbsent(E x) {
         synchronized (list) {
