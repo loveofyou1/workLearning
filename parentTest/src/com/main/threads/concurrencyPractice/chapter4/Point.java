@@ -9,7 +9,7 @@ import net.jcip.annotations.Immutable;
  * @create 2018-03-16 20:57
  */
 @Immutable
-public class Point {
+public class Point extends java.awt.Point {
     public final int x, y;
 
     public Point(int x, int y) {
