@@ -1,6 +1,4 @@
-package com.main.threads.concurrencyPractice.chapter13;
-
-import static java.util.concurrent.TimeUnit.SECONDS;
+package com.main.threads.concurrencyPractice.chapter14;
 
 public class TestGrumpyBoundedBuffer {
     GrumpyBoundedBuffer buffer = new GrumpyBoundedBuffer(10);

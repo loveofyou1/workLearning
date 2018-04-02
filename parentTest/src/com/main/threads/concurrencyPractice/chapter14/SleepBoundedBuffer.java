@@ -1,6 +1,4 @@
-package com.main.threads.concurrencyPractice.chapter13;
-
-import java.util.concurrent.TimeUnit;
+package com.main.threads.concurrencyPractice.chapter14;
 
 public class SleepBoundedBuffer<V> extends BaseBoundedBuffer<V> {
     protected SleepBoundedBuffer(int capacity) {
