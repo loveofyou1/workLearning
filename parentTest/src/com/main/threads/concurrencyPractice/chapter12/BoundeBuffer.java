@@ -16,6 +16,7 @@ public class BoundeBuffer<E> {
     private final E[] items;
     @GuardedBy("this")
     private int putPosition = 0, takePosition = 0;
+    private ThreadLocal lock = new ThreadLocal();
 
     public BoundeBuffer(int capacity) {
         this.availableItems = new Semaphore(0);
@@ -37,6 +38,17 @@ public class BoundeBuffer<E> {
         availableItems.release();
     }
 
+    public synchronized void put1(E e) throws InterruptedException {
+        while (isFull()) {
+            wait();
+        }
+        boolean isEmpty = isEmpty();
+        doInsert(e);
+        if (isEmpty) {
+            notifyAll();
+        }
+    }
+
     public E take() throws InterruptedException {
         availableItems.acquire();
         E item = doExtract();
@@ -56,5 +68,19 @@ public class BoundeBuffer<E> {
         items[i] = null;
         takePosition = (++i == items.length) ? 0 : 1;
         return x;
+    }
+
+    void stateDependentMethod() throws InterruptedException {
+        //必须通过一个锁来保护条件谓词
+        synchronized (lock) {
+            while (!conditionPredicate()) {
+                lock.wait();
+                //现在对象处于合适的状态
+            }
+        }
+    }
+
+    private boolean conditionPredicate() {
+        return false;
     }
 }
