@@ -1,4 +1,4 @@
-package com.main.designModel.adpter;
+package com.main.designModel.adpter.service;
 
 public interface IUserInfo {
     //获得用户姓名
