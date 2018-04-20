@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb516f7c-96cb-494e-8c97-8b448e13111e" name="Default" comment="修改问题">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/TemplateClient.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/abstractFather/HummerModel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/sub/Hummber1.java" afterDir="false" />
@@ -23,24 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HummerModel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HummerModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/designModel/template/abstractFather/HummerModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding>
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemplateClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TemplateClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/designModel/template/TemplateClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+            <state relative-caret-position="391">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,21 +48,13 @@
       <file leaf-file-name="Hummber1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/designModel/template/sub/Hummber1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="357">
               <caret line="31" column="28" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="28" />
               <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
                 <element signature="e#609#610#0" expanded="true" />
                 <element signature="e#646#647#0" expanded="true" />
                 <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,17 +64,7 @@
         <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/designModel/template/sub/Hummer2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-              <folding>
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-              </folding>
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -157,8 +136,8 @@
         <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/HummerModel.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/sub/Hummer2.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/sub/Hummber1.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/TemplateClient.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/abstractFather/HummerModel.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/TemplateClient.java" />
       </list>
     </option>
   </component>
@@ -168,7 +147,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="25" />
     <option name="width" value="1400" />
@@ -183,8 +162,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,6 +199,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,7 +379,9 @@
       <workItem from="1523348513918" duration="7359000" />
       <workItem from="1523535345021" duration="10297000" />
       <workItem from="1523600367914" duration="3202000" />
-      <workItem from="1524100674833" duration="2767000" />
+      <workItem from="1524100674833" duration="2841000" />
+      <workItem from="1524108814429" duration="601000" />
+      <workItem from="1524186312573" duration="103000" />
     </task>
     <task id="LOCAL-00001" summary="修改问题">
       <created>1522224392791</created>
@@ -448,15 +429,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86543000" />
+    <option name="totallyTimeSpent" value="87321000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1851" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32822758" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -465,10 +445,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32470334" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32901832" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.29773462" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.29749477" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5102481" visible="true" weight="0.20522387" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5102481" visible="true" weight="0.20938024" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Structure" order="2" sideWeight="0.47788566" side_tool="true" weight="0.26865673" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -478,6 +458,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.48975188" side_tool="true" weight="0.22654584" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32822758" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -836,21 +817,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/designModel/template/sub/Hummber1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="357">
           <caret line="31" column="28" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="28" />
           <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
             <element signature="e#609#610#0" expanded="true" />
             <element signature="e#646#647#0" expanded="true" />
             <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -858,37 +831,23 @@
     <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/designModel/template/sub/Hummer2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/designModel/template/TemplateClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/designModel/template/abstractFather/HummerModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/designModel/template/TemplateClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

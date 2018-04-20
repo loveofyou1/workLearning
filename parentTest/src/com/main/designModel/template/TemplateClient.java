@@ -20,6 +20,8 @@ import java.io.InputStreamReader;
  * ● 重要、复杂的算法，可以把核心算法设计为模板方法，周边的相关细节功能则由各个子类实现。
  * <p>
  * ● 重构时，模板方法模式是一个经常使用的模式，把相同的代码抽取到父类中，然后通过钩子函数（见“模板方法模式的扩展”）约束其行为。
+ * <p>
+ * 注意事项：该方法是子类影响父类的设计，开发时不建议经常使用子类影响父类的方式。
  */
 public class TemplateClient {
     public static void main(String[] args) throws IOException {
