@@ -1,6 +1,6 @@
 package com.main.threads.concurrencyPractice.chapter4;
 
-import com.main.test.serialize.Person;
+import com.main.test.serialize.first.Person;
 import net.jcip.annotations.ThreadSafe;
 
 import java.util.HashSet;
