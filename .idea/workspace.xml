@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb516f7c-96cb-494e-8c97-8b448e13111e" name="Default" comment="修改问题">
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/DataStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FilePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/ObjetStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestCharLengthByCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,26 +33,35 @@
       <file leaf-file-name="FileCopy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCopy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/FileInputStream.java">
+      <file leaf-file-name="ChaperFourteen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/codeCleaning/ChaperFourteen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="49" column="21" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="21" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BufferedInputStream.java" pinned="false" current-in-tab="true">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/BufferedInputStream.java">
+      <file leaf-file-name="TestNormal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestNormal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="199" column="16" selection-start-line="199" selection-start-column="7" selection-end-line="199" selection-end-column="16" />
+            <state relative-caret-position="187">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCharLengthByCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestCharLengthByCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -134,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/Client.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Product.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Horse.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/IPod.java" />
@@ -185,6 +186,7 @@
         <option value="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/ObjetStream.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/DataStreamDemo.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FilePrint.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestCharLengthByCode.java" />
       </list>
     </option>
   </component>
@@ -239,16 +241,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="normal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -340,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FilePrint">
+  <component name="RunManager" selected="Application.TestCharLengthByCode">
     <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.test.io.example.FileCopy" />
       <module name="parentTest" />
@@ -354,17 +347,6 @@
     </configuration>
     <configuration name="FileCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.test.io.example.FileCount" />
-      <module name="parentTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.test.io.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.test.io.example.FileExample" />
       <module name="parentTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -392,6 +374,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.main.test.io.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestCharLengthByCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.test.normal.TestCharLengthByCode" />
+      <module name="parentTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.test.normal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,19 +431,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FileExample" />
       <item itemvalue="Application.FileCount" />
       <item itemvalue="Application.FileCopy" />
       <item itemvalue="Application.ObjetStream" />
       <item itemvalue="Application.FilePrint" />
+      <item itemvalue="Application.TestCharLengthByCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCharLengthByCode" />
         <item itemvalue="Application.FilePrint" />
         <item itemvalue="Application.ObjetStream" />
         <item itemvalue="Application.FileCopy" />
         <item itemvalue="Application.FileCount" />
-        <item itemvalue="Application.FileExample" />
       </list>
     </recent_temporary>
   </component>
@@ -516,7 +509,7 @@
       <workItem from="1529552101423" duration="39000" />
       <workItem from="1529552146877" duration="244000" />
       <workItem from="1530089277722" duration="22000" />
-      <workItem from="1532423196146" duration="5600000" />
+      <workItem from="1532423196146" duration="6535000" />
     </task>
     <task id="LOCAL-00001" summary="修改问题">
       <created>1522224392791</created>
@@ -589,7 +582,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154334000" />
+    <option name="totallyTimeSpent" value="155269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -604,13 +597,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.29773462" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32362458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32362458" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32901832" />
       <window_info anchor="right" id="Mongo Explorer" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.72384036" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5102481" visible="true" weight="0.28144988" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5102481" visible="true" weight="0.28144988" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Structure" order="2" sideWeight="0.47788566" side_tool="true" weight="0.2675906" />
@@ -678,7 +671,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/design/jdk7/jdk/src.zip!/java/lang/reflect/Method.java" />
     <entry file="jar://C:/design/jdk7/jdk/src.zip!/java/io/OutputStream.java" />
     <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestReflect.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -697,25 +689,11 @@
       </provider>
     </entry>
     <entry file="jar://C:/design/jdk7/jdk/src.zip!/java/lang/reflect/Constructor.java" />
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestNormal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/codeCleaning/Args.java" />
     <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/service/ParentInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/codeCleaning/ChaperFourteen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -1010,10 +988,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCopy.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/BufferedInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="1040">
+          <caret line="218" column="34" lean-forward="true" selection-start-line="218" selection-start-column="34" selection-end-line="218" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1024,10 +1002,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/BufferedInputStream.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCopy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="199" column="16" selection-start-line="199" selection-start-column="7" selection-end-line="199" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/codeCleaning/ChaperFourteen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestNormal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestCharLengthByCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
