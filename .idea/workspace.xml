@@ -1,43 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7e86c4c-5c57-471c-b9b5-63e15fcdb11d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/FutureRender.java" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/FutureRender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/ImageInfo.java" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/ImageInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/QuoteTask.java" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/QuoteTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/RenderPageByAD.java" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/RenderPageByAD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/Renderer.java" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/Renderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/SingleThreadRender.java" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/SingleThreadRender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/SingleThreadWebServer.java" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/SingleThreadWebServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/TaskExecutionWebServer.java" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/TaskExecutionWebServer.java" />
+    <list default="true" id="eb516f7c-96cb-494e-8c97-8b448e13111e" name="Default" comment="修改问题">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jar_all.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/TestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/AbstractFactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/impl/OuterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/impl/OuterUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/impl/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/service/IOuterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/service/IUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Cloth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/ClothesCorp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Corp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/HouseCorp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/IPod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/ShanZhaiCorp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/ConcreteImplementor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/ConcreteImplementor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/Implementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/RefinedAbstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/BuilderPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/goods/ChickenBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/goods/Coke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/goods/Pepsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/goods/VegBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/meal/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/Packing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/impl/Bottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/impl/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/impl/ColdDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/impl/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/FouthGradeSchoolReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/HighScoreDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/SchoolReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/SortDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/SugarFouthGradeSchoolReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/ConcreteComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/ConcreteDecorator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/ConcreteDecorator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/impl/LetterProcessImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/moden/ModenPostOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/moden/Police.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/service/ILetterProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/ClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/ClassC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/FactoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/GamePlayerProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/TestProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicProxy/GamePlayIH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/BeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/Client1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/DynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/IAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/MyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/SubjectDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/impl/GamePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/service/IGamePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/service/IProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonStave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonSyn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/TemplateClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/abstractFather/HummerModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/sub/Hummber1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/sub/Hummer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/exception/TestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/DataStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FilePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/ObjetStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/nio/NioDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/ReflectMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestCharLengthByCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/codeCleaning/ChaperFourteen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/exceptionTest/TestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/Advice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/SalaryInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/impl/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/impl/SalaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/impl/TimeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/proxy/SimpleProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/test/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/first/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/second/FlyPig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/second/SerializableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/ConcurrencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread02/CompareAndSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/DemonstrateDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/Dispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/DynmicDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/LeftRightDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/ResolveDynmicDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/Taxi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter11/AttributeStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter11/ServersStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter11/WorderThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter12/BoundeBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter13/LockTetst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter13/ReadWriteMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/BaseBoundedBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/ConditionBoundedBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/GrumpyBoundedBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/OneShotLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/SemaphoreOnLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/SleepBoundedBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/TestGrumpyBoundedBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/ThreadGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/CasCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/CasNumberRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/CocurrentStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/PossibleRecordering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/SafeStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/SimulatedCAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/BrokenPrimeProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/CheckMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/HelloInterrupter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/IndexingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/LogService2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/LogWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/NewTaskForCancel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/PrimeGenrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/PrimeProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/ReaderThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/SecondOfPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/TestPrimeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/TrackingExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/WebCrawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/BoundedThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/ConcurrentPuzzleSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/DiguiExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/Puzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/SequentialPuzzleSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/TestThreadPoolHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/ThreadDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/TimingThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/ValueLatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/parentTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/parentTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/jackson/FirstJackSonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/jackson/FirstJackSonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/first/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/SimpleSerial.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/first/SimpleSerial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/DelegatingVehicleTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/DelegatingVehicleTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/ListHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/ListHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/MonitorVehicleTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/MonitorVehicleTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/MutablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/MutablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/NumberRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/NumberRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PersonSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PersonSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PrivateLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PrivateLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PublishingVechicleTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PublishingVechicleTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/SafePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/SafePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/VehicleTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/VehicleTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/VisualComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/VisualComponent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/parentTest/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-58422283">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1159" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1159" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1546275521">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="workLearning" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FinalTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/FinalTest.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/ConcurrencyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="231">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstJackSonDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/jackson/FirstJackSonDemo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread02/CompareAndSetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="91">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,37 +283,72 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/BetterVector.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/ListHelper.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/ImproveList.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PersonSet.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/TaskRunnable.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/TestHarness.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/SingleThreadWebServer.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/TaskExecutionWebServer.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/SingleThreadRender.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/FutureRender.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/ImageInfo.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/Renderer.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/Ad.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/RenderPageByAD.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/TravelQuote.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/QuoteTask.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/IPod.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Corp.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/HorseCorp.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/ClothesCorp.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/ShanZhaiCorp.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Cloth.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Client.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/Implementor.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/ConcreteImplementor.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/ConcreteImplementor1.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/ConcreteImplementor2.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/Abstraction.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/RefinedAbstraction.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/Client.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/service/ILetterProcess.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/ILetterProcess.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/impl/LetterProcessImpl.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/moden/Police.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/moden/ModenPostOffice.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/Client.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/ClassA.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/ClassB.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/ClassC.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/Facade.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/exception/TestException.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/nio/NioDemo2.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestNormal.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/ReflectMethods.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/SalaryInterface.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/impl/Salary.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/Advice.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/impl/TimeAdvice.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/proxy/SimpleProxy.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/test/Client.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/first/Person.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/second/SerializableTest.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/second/FlyPig.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/exceptionTest/TestException.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestReflect.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/codeCleaning/ChaperFourteen.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/codeCleaning/Args.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/impl/SalaryTest.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileExample.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCount.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCopy.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/ObjetStream.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/DataStreamDemo.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FilePrint.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestCharLengthByCode.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/ConcurrencyTest.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread02/CompareAndSetTest.java" />
       </list>
     </option>
   </component>
@@ -90,28 +358,36 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="25" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,41 +411,15 @@
               <item name="parentTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="parentTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="jackson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-              <item name="FinalTest" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-              <item name="Value" type="1a9f42e2:ClassTreeNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+              <item name="artOfThread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -180,22 +430,38 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534593993517" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.main.test.normal.reflect.impl" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.main.threads.concurrencyPractice.chapter6" />
+      <recent name="com.main.designModel.builder" />
+      <recent name="com.main.threads.concurrencyPractice.chapter13" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\kaifa\project\test\workLearning\parentTest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -210,168 +476,289 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FinalTest">
-    <configuration name="FinalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+  <component name="RunManager" selected="Application.CompareAndSetTest">
+    <configuration name="CompareAndSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.threads.artOfThread.thread02.CompareAndSetTest" />
+      <module name="parentTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.main.test.*" />
+          <option name="PATTERN" value="com.main.threads.artOfThread.thread02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.main.test.FinalTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="parentTest" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+    <configuration name="ConcurrencyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.threads.artOfThread.thread01.ConcurrencyTest" />
+      <module name="parentTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.threads.artOfThread.thread01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.test.io.example.FilePrint" />
+      <module name="parentTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.test.io.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.threads.artOfThread.thread01.Main" />
+      <module name="parentTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.threads.artOfThread.thread01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCharLengthByCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.test.normal.TestCharLengthByCode" />
+      <module name="parentTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.test.normal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.FilePrint" />
+      <item itemvalue="Application.TestCharLengthByCode" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ConcurrencyTest" />
+      <item itemvalue="Application.CompareAndSetTest" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.FinalTest" />
+      <list>
+        <item itemvalue="Application.CompareAndSetTest" />
+        <item itemvalue="Application.ConcurrencyTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestCharLengthByCode" />
+        <item itemvalue="Application.FilePrint" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_NON_PUBLIC" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\sunlei19\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c7e86c4c-5c57-471c-b9b5-63e15fcdb11d" name="Default" comment="" />
-      <created>1521245824567</created>
+      <changelist id="eb516f7c-96cb-494e-8c97-8b448e13111e" name="Default" comment="" />
+      <created>1522221663079</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1521245824567</updated>
-      <workItem from="1521245825748" duration="47000" />
-      <workItem from="1521259012596" duration="134000" />
-      <workItem from="1521259483755" duration="10361000" />
-      <workItem from="1521351734189" duration="3472000" />
-      <workItem from="1521361743002" duration="3021000" />
-      <workItem from="1530927139159" duration="25000" />
-      <workItem from="1530976308786" duration="77000" />
-      <workItem from="1531013230307" duration="130000" />
+      <updated>1522221663079</updated>
+      <workItem from="1522221668737" duration="4108000" />
+      <workItem from="1522373076568" duration="2437000" />
+      <workItem from="1522397240715" duration="3743000" />
+      <workItem from="1522630657398" duration="927000" />
+      <workItem from="1522633420684" duration="3619000" />
+      <workItem from="1522637590549" duration="8631000" />
+      <workItem from="1522718399619" duration="3823000" />
+      <workItem from="1522810373680" duration="180000" />
+      <workItem from="1522828020931" duration="733000" />
+      <workItem from="1522829150233" duration="4931000" />
+      <workItem from="1523151499879" duration="4731000" />
+      <workItem from="1523179704295" duration="600000" />
+      <workItem from="1523239552711" duration="505000" />
+      <workItem from="1523240081136" duration="329000" />
+      <workItem from="1523241194963" duration="831000" />
+      <workItem from="1523242999782" duration="22790000" />
+      <workItem from="1523348513918" duration="7359000" />
+      <workItem from="1523535345021" duration="10297000" />
+      <workItem from="1523600367914" duration="3202000" />
+      <workItem from="1524100674833" duration="2841000" />
+      <workItem from="1524108814429" duration="601000" />
+      <workItem from="1524186312573" duration="10819000" />
+      <workItem from="1524216514607" duration="730000" />
+      <workItem from="1524391550631" duration="332000" />
+      <workItem from="1524393453556" duration="276000" />
+      <workItem from="1524394174671" duration="5025000" />
+      <workItem from="1524549790888" duration="3720000" />
+      <workItem from="1524619360839" duration="499000" />
+      <workItem from="1524619866992" duration="1531000" />
+      <workItem from="1524706345733" duration="284000" />
+      <workItem from="1525397133297" duration="937000" />
+      <workItem from="1526434919356" duration="1218000" />
+      <workItem from="1526552639963" duration="2041000" />
+      <workItem from="1526562412976" duration="1428000" />
+      <workItem from="1527156377788" duration="224000" />
+      <workItem from="1527244721503" duration="612000" />
+      <workItem from="1527585825568" duration="2249000" />
+      <workItem from="1527641048688" duration="36000" />
+      <workItem from="1528186636988" duration="2382000" />
+      <workItem from="1528679772903" duration="5387000" />
+      <workItem from="1528705101496" duration="5773000" />
+      <workItem from="1528712610984" duration="1562000" />
+      <workItem from="1528856823593" duration="3597000" />
+      <workItem from="1529292565837" duration="164000" />
+      <workItem from="1529390779273" duration="1917000" />
+      <workItem from="1529483971780" duration="7432000" />
+      <workItem from="1529542564678" duration="852000" />
+      <workItem from="1529544841687" duration="15000" />
+      <workItem from="1529551926296" duration="169000" />
+      <workItem from="1529552101423" duration="39000" />
+      <workItem from="1529552146877" duration="244000" />
+      <workItem from="1530089277722" duration="22000" />
+      <workItem from="1532423196146" duration="7302000" />
+      <workItem from="1534577109603" duration="8330000" />
+      <workItem from="1534652650950" duration="32000" />
     </task>
+    <task id="LOCAL-00001" summary="修改问题">
+      <created>1522224392791</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522224392791</updated>
+    </task>
+    <task id="LOCAL-00002" summary="锁和状态工具类">
+      <created>1522657449983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522657449983</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第十四章">
+      <created>1523276943771</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523276943771</updated>
+    </task>
+    <task id="LOCAL-00004" summary="原子性和非阻塞同步机制，内存模型jmm">
+      <created>1523366234410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523366234410</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加设计模式包">
+      <created>1523366636253</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523366636253</updated>
+    </task>
+    <task id="LOCAL-00006" summary="设计模式：单例、工厂、建造者">
+      <created>1523607045956</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523607045956</updated>
+    </task>
+    <task id="LOCAL-00007" summary="适配器模式">
+      <created>1524211054738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1524211054738</updated>
+    </task>
+    <task id="LOCAL-00008" summary="增加测试方法">
+      <created>1529398532081</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529398532081</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SalaryTest_sayHello - 2018.06.21 at 11h 38m 15s.xml">
+      <configuration name="SalaryTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalaryTest_sayHello - 2018.06.21 at 11h 39m 32s.xml">
+      <configuration name="SalaryTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalaryTest_sayHello - 2018.06.21 at 11h 39m 40s.xml">
+      <configuration name="SalaryTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17267000" />
+    <option name="totallyTimeSpent" value="164398000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="96" y="41" width="1920" height="1008" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26677316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5102481" visible="true" weight="0.2428115" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.48975188" side_tool="true" weight="0.22654584" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32330826" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3104189" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.72384036" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.29773462" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32901832" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32760474" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="2" sideWeight="0.50053704" side_tool="true" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" sideWeight="0.49946293" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Mongo Explorer" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,366 +767,192 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改问题" />
+    <MESSAGE value="锁和状态工具类" />
+    <MESSAGE value="第十四章" />
+    <MESSAGE value="原子性和非阻塞同步机制，内存模型jmm" />
+    <MESSAGE value="增加设计模式包" />
+    <MESSAGE value="设计模式：单例、工厂、建造者" />
+    <MESSAGE value="适配器模式" />
+    <MESSAGE value="增加测试方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加测试方法" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestReflect.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/File.java</url>
+          <line>1005</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCount.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>ClassLoader.getClassLoader(caller)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/SingleThreadWebServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/TaskExecutionWebServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19635">
-          <caret line="1309" column="24" lean-forward="false" selection-start-line="1309" selection-start-column="12" selection-end-line="1309" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="170" column="54" lean-forward="true" selection-start-line="170" selection-start-column="54" selection-end-line="170" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PersonSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PersonSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8089">
-          <caret line="420" column="13" lean-forward="false" selection-start-line="420" selection-start-column="13" selection-end-line="420" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/ImproveList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="107" column="19" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/ListHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PersonSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2401" column="24" lean-forward="false" selection-start-line="2401" selection-start-column="8" selection-end-line="2401" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="638" column="32" lean-forward="false" selection-start-line="638" selection-start-column="32" selection-end-line="638" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/ConcurrentModificationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="143" column="22" lean-forward="false" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1992">
-          <caret line="190" column="24" lean-forward="true" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentLinkedDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="628" column="65" lean-forward="true" selection-start-line="628" selection-start-column="65" selection-end-line="628" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/BetterVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="1533" column="34" lean-forward="false" selection-start-line="1533" selection-start-column="34" selection-end-line="1533" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="917" column="36" lean-forward="true" selection-start-line="917" selection-start-column="36" selection-end-line="917" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/TaskRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="1341" column="27" lean-forward="false" selection-start-line="1341" selection-start-column="12" selection-end-line="1341" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/TestHarness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1615">
-          <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="291" column="27" lean-forward="false" selection-start-line="291" selection-start-column="27" selection-end-line="291" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/CyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="135" column="2" lean-forward="true" selection-start-line="135" selection-start-column="2" selection-end-line="135" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/net/Socket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="734" column="47" lean-forward="false" selection-start-line="734" selection-start-column="47" selection-end-line="734" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="183" column="6" lean-forward="true" selection-start-line="183" selection-start-column="6" selection-end-line="183" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/TaskExecutionWebServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/List.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/org/w3c/dom/bootstrap/DOMImplementationRegistry.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/javax/script/Bindings.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/FilterInputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/ByteArrayInputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/nio/CharBuffer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/Readable.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/net/SocketInputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/File.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/FileOutputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/InputStream.java" />
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="237" column="12" lean-forward="false" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/RunnableFuture.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/BufferedReader.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/InputStreamReader.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/Reader.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/ObjectInputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/DataOutputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/PrintStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/Writer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/PrintWriter.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/System.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/BufferedInputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/FileInputStream.java" />
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        <state relative-caret-position="513">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="1177" column="6" lean-forward="true" selection-start-line="1177" selection-start-column="6" selection-end-line="1177" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="241" column="6" lean-forward="true" selection-start-line="241" selection-start-column="6" selection-end-line="241" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/SingleThreadWebServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/SingleThreadRender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="145" column="33" lean-forward="false" selection-start-line="145" selection-start-column="15" selection-end-line="145" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCopy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="187" column="32" lean-forward="false" selection-start-line="187" selection-start-column="32" selection-end-line="187" selection-end-column="32" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/codeCleaning/ChaperFourteen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="354" column="54" lean-forward="true" selection-start-line="354" selection-start-column="54" selection-end-line="354" selection-end-column="54" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorCompletionService.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestNormal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="145" column="11" lean-forward="false" selection-start-line="145" selection-start-column="11" selection-end-line="145" selection-end-column="11" />
+        <state relative-caret-position="209">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/ImageInfo.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/ObjetStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="551">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/FutureRender.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/DataInputStream.java" />
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/DataStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="1121">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletionService.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FilePrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="72" column="14" lean-forward="false" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+        <state relative-caret-position="513">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/RenderPageByAD.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestCharLengthByCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="209">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/Renderer.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/Ad.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/MyRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/TravelQuote.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/Runnable.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/ThreadGroup.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/Thread.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/AbstractQueue.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/TransferQueue.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/atomic/AtomicReference.java" />
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread06/AtomicReferenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/LinkedTransferQueue.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/ConcurrentMap.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/Executor.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ConcurrentMap.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Map.java" />
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+        <state relative-caret-position="209">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/QuoteTask.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/ConcurrencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/FinalTest.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread02/CompareAndSetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/jackson/FirstJackSonDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="91">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -775,7 +988,6 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>servlet-api-2.3-sources</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -810,9 +1022,21 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jackson-annotations-2.2.3</last-edited>
+          <last-edited>jar_all</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
