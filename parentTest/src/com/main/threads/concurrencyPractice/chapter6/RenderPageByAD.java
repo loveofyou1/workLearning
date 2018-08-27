@@ -1,11 +1,11 @@
 package com.main.threads.concurrencyPractice.chapter6;
 
-import sun.jvm.hotspot.debugger.Page;
+//import sun.jvm.hotspot.debugger.Page;
 
 import java.util.concurrent.*;
 
 public class RenderPageByAD {
-
+/*
     private static final int TIME_BUDGET = 10;
 
     private ExecutorService exec = Executors.newFixedThreadPool(10);
@@ -42,5 +42,5 @@ public class RenderPageByAD {
         public void run() {
             System.out.println("fetch task");
         }
-    }
+    }*/
 }
