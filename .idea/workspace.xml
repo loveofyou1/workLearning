@@ -2,15 +2,313 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb516f7c-96cb-494e-8c97-8b448e13111e" name="Default" comment="修改问题">
-      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/FinalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/MonitorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/ReetrantLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/SynchronizedExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/VolatileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/parentTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/parentTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/TestModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/AbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/AbstractFactoryPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/Blue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/ColorFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/FactoryProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/Green.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/Red.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/abstractFactory/ShapeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/impl/OuterUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/impl/OuterUserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/impl/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/service/IOuterUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/adpter/service/IUserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Cloth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/ClothesCorp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Corp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/HouseCorp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/IPod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/ShanZhaiCorp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/Abstraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/ConcreteImplementor1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/ConcreteImplementor2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/Implementor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/RefinedAbstraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/BuilderPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/MealBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/goods/ChickenBurger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/goods/Coke.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/goods/Pepsi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/goods/VegBurger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/meal/Meal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/Packing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/impl/Bottle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/impl/Burger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/impl/ColdDrink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/builder/service/impl/Wrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/Decorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/Father.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/FouthGradeSchoolReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/HighScoreDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/SchoolReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/SortDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/SugarFouthGradeSchoolReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/Component.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/ConcreteComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/ConcreteDecorator1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/ConcreteDecorator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/decorator/decoratorTemplate/Decorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/impl/LetterProcessImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/moden/ModenPostOffice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/moden/Police.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/service/ILetterProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/ClassA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/ClassB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/ClassC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/facadePattern/template/Facade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/FactoryDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/SimpleFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/factory/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/GamePlayerProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/TestProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicProxy/GamePlayIH.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/BeforeAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/Client1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/Client2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/DynamicProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/IAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/MyInvocationHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/RealSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/dynamicTemplate/SubjectDynamicProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/impl/GamePlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/service/IGamePlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/proxy/service/IProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingleObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonDouble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonStave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/single/SingletonSyn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/TemplateClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/abstractFather/HummerModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/sub/Hummber1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/designModel/template/sub/Hummer2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/impl/AbstractParent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/impl/Child.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/service/ParentInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/FinalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/TestEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/TestFinal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/TestGetClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/TestParent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/annotation/AuthorAnno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/annotation/main/AnnotationDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/annotation/main/AnnotationParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/designModel/proxy/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/designModel/proxy/DynamicSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/designModel/proxy/RealSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/designModel/proxy/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/enumtest/EnumSun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/exception/TestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/io/CreateDir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/io/FileStreamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/io/FileStreamTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/io/IoDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/io/IoDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/DataStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCopy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FilePrint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/io/example/ObjetStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/jackson/FirstJackSonDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/jackson/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/nio/NioDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/nio/NioDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/ReflectMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestCharLengthByCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestNormal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestReflect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/codeCleaning/ChaperFourteen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/exceptionTest/TestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/Advice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/SalaryInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/impl/Salary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/impl/SalaryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/impl/TimeAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/proxy/SimpleProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/normal/reflect/test/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/samllTest/TestClone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/first/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/first/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/first/SimpleSerial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/second/FlyPig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/test/serialize/second/SerializableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/ThreadId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/ConcurrencyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/MyCallable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/MyRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/MyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread02/CompareAndSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/FinalExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/Instance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/InstanceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/JoinThreadExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/MonitorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/ReetrantLockExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/SynchronizedExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/UnsafeLazyInitialize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/VolatileExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread04/MultiThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread04/Priority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread04/ThreadState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread05/Cache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread05/ConditionUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread05/FairAndUnFairTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread05/LockUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread05/Mutex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread05/TwinsLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread05/TwinsLockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread06/AtomicIntegerArrayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread06/AtomicIntegerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread06/AtomicReferenceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread08/BankWaterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread08/JoinCountDownLatchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread08/SemaphoreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/ConnectionDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/ConnectionPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/DefaultThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/Deprecated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/Join.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/MultiThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/Piped.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/Profiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/Prority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/ShutDown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/Synchronized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/Synchronized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/ThreaState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/ThreadInterupt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/ThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/threadArt01/WaitNofity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/ThreadBegin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter03/Holder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter03/OneValueCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter03/SafeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter03/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter03/ThisSpace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter03/ThreadClosed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter03/ThreeStooges.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter03/UseThreadLocal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/DemonstrateDeadLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/Dispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/DynmicDeadLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/LeftRightDeadLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/ResolveDynmicDeadLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter10/Taxi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter11/AttributeStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter11/ServersStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter11/WorderThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter12/BoundeBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter13/LockTetst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter13/ReadWriteMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/BaseBoundedBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/ConditionBoundedBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/GrumpyBoundedBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/OneShotLatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/SemaphoreOnLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/SleepBoundedBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/TestGrumpyBoundedBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter14/ThreadGate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/CasCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/CasNumberRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/CocurrentStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/PossibleRecordering.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/SafeStates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter15/SimulatedCAS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/BetterVector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/DelegatingVehicleTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/ImproveList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/ListHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/MonitorVehicleTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/MutablePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/NumberRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PersonSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PrivateLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/PublishingVechicleTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/SafePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/TaskRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/TestHarness.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/VehicleTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/VisualComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/Ad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/FutureRender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/ImageInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/QuoteTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/RenderPageByAD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/Renderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/SingleThreadRender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/SingleThreadWebServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/TaskExecutionWebServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter6/TravelQuote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/BrokenPrimeProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/CheckMail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/HelloInterrupter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/IndexingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/LogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/LogService2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/LogWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/NewTaskForCancel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/PrimeGenrator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/PrimeProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/ReaderThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/SecondOfPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/TestPrimeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/TrackingExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter7/WebCrawler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/BoundedThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/ConcurrentPuzzleSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/DiguiExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/Puzzle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/SequentialPuzzleSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/TestThreadPoolHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/ThreadDeadLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/TimingThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter8/ValueLatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/test/NetWorkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/test/SimpleThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/test/WorkerThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/com/main/threads/util/SleepUtil.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/parentTest/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +356,37 @@
     <session id="-1546275521">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="6" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="6" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="xml" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
     </session>
@@ -71,19 +397,83 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/ReetrantLockExample.java">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread03/FinalExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="231">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/jackson/FirstJackSonDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/AtomicReferenceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/concurrencyPractice/chapter6/Renderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="e#1595#1596#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/normal/reflect/impl/SalaryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/threadArt01/ConnectionPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/concurrencyPractice/chapter6/SingleThreadRender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/FinalExample.java">
+        <entry file="file://$PROJECT_DIR$/parentTest/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="308">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -108,9 +498,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/Client.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/Implementor.java" />
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/ConcreteImplementor.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/ConcreteImplementor1.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/ConcreteImplementor2.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/designModel/bridge/template/Abstraction.java" />
@@ -159,6 +546,9 @@
         <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/MonitorExample.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/ReetrantLockExample.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/FinalExample.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/test/normal/reflect/impl/SalaryTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/parentTest/pom.xml" />
       </list>
     </option>
   </component>
@@ -168,7 +558,35 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/maven/apache-maven-3.5.2" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parentTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parentTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -194,7 +612,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,95 +620,11 @@
               <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="parentTest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="artOfThread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="artOfThread" type="462c0819:PsiDirectoryNode" />
-              <item name="thread03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="locks" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -300,7 +634,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534941026136" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535883583602" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -309,7 +643,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -518,6 +852,8 @@
       <workItem from="1534854689922" duration="3107000" />
       <workItem from="1534938496411" duration="2987000" />
       <workItem from="1535880873989" duration="74000" />
+      <workItem from="1535880985965" duration="1248000" />
+      <workItem from="1535882299362" duration="1108000" />
     </task>
     <task id="LOCAL-00001" summary="修改问题">
       <created>1522224392791</created>
@@ -590,12 +926,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174754000" />
+    <option name="totallyTimeSpent" value="177110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5102481" visible="true" weight="0.24391988" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5102481" visible="true" weight="0.25107297" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -603,16 +940,16 @@
       <window_info id="Favorites" order="5" sideWeight="0.48975188" side_tool="true" weight="0.22654584" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32330826" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32218093" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3104189" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" visible="true" weight="0.33209416" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.33209416" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.3340494" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32901832" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32760474" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32713756" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Structure" order="2" sideWeight="0.50053704" side_tool="true" weight="0.25" />
@@ -620,7 +957,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297568" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Mongo Explorer" order="10" />
@@ -647,7 +984,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestReflect.java</url>
+          <url>file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/normal/TestReflect.java</url>
           <line>13</line>
           <properties />
           <option name="timeStamp" value="14" />
@@ -659,7 +996,7 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCount.java</url>
+          <url>file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/io/example/FileCount.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="23" />
@@ -680,43 +1017,35 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/ObjectInputStream.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/DataOutputStream.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/PrintStream.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/Writer.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/PrintWriter.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/System.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/BufferedInputStream.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/FileInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileExample.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/io/example/FileExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FileCopy.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/io/example/FileCopy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/codeCleaning/ChaperFourteen.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/normal/codeCleaning/ChaperFourteen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestNormal.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/normal/TestNormal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/ObjetStream.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/io/example/ObjetStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
@@ -724,35 +1053,35 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/DataInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/DataStreamDemo.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/io/example/DataStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1121">
           <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/io/example/FilePrint.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/io/example/FilePrint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestCharLengthByCode.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/normal/TestCharLengthByCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/Main.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/MyRunnable.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread01/MyRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -765,25 +1094,18 @@
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/AbstractQueue.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/TransferQueue.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/atomic/AtomicReference.java" />
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread06/AtomicReferenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/LinkedTransferQueue.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/ConcurrentMap.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/Executor.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/concurrencyPractice/chapter4/Counter.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/concurrencyPractice/chapter4/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread01/ConcurrencyTest.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread01/ConcurrencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -791,7 +1113,7 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Map.java" />
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread02/CompareAndSetTest.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread02/CompareAndSetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
@@ -810,25 +1132,21 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Long.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/math/BigDecimal.java" />
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/MonitorExample.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread03/MonitorExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/VolatileExample.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread03/VolatileExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/SynchronizedExample.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread03/SynchronizedExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
@@ -841,17 +1159,90 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/Executor.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/Lock.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/ReadWriteLock.java" />
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/ReetrantLockExample.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread03/ReetrantLockExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/com/main/threads/artOfThread/thread03/FinalExample.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread03/FinalExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/jackson/FirstJackSonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/AtomicReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/concurrencyPractice/chapter6/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/normal/reflect/impl/SalaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/threadArt01/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/concurrencyPractice/chapter6/SingleThreadRender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -884,6 +1275,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>servlet-api-2.3-sources</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
