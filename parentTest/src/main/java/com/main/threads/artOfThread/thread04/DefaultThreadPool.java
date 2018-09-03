@@ -1,4 +1,4 @@
-package com.main.threads.artOfThread.threadArt01;
+package com.main.threads.artOfThread.thread04;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * @author sunlei19
  * @create 2018-02-02 17:31
  */
-public class DefaultThreadPool implements ThreadPool {
+public class DefaultThreadPool<Job extends Runnable> implements ThreadPool<Job> {
 
     private static final int MAX_WORKER_NUMBER = 10;
 
@@ -28,9 +28,11 @@ public class DefaultThreadPool implements ThreadPool {
     //线程编号生成
     private AtomicLong threadNum = new AtomicLong();
 
+
     public DefaultThreadPool() {
         initializeWorkers(DEFAULT_WORKER_NUMBERS);
     }
+
 
     public DefaultThreadPool(int num) {
         worknums = num > MAX_WORKER_NUMBER ? MAX_WORKER_NUMBER : num < MIN_WORKER_NUMBER ? MIN_WORKER_NUMBER : num;
@@ -45,10 +47,11 @@ public class DefaultThreadPool implements ThreadPool {
             //添加一个工作,然后进行通知
             synchronized (job) {
                 jobs.addLast(job);
-                jobs.notifyAll();
+                jobs.notify();
             }
         }
     }
+
 
     @Override
     public void shutdown() {
@@ -56,6 +59,7 @@ public class DefaultThreadPool implements ThreadPool {
             worker.shutdown();
         }
     }
+
 
     @Override
     public void addworks(int num) {
@@ -67,6 +71,7 @@ public class DefaultThreadPool implements ThreadPool {
             this.worknums += num;
         }
     }
+
 
     @Override
     public void removeWorks(int num) {
@@ -85,10 +90,18 @@ public class DefaultThreadPool implements ThreadPool {
         }
     }
 
+
     @Override
     public int getJodSize() {
         return jobs.size();
     }
+
+
+    @Override
+    public void execute(Job httpRequestHandler) {
+
+    }
+
 
     //初始化线程工作者
     private void initializeWorkers(int nums) {
@@ -102,9 +115,11 @@ public class DefaultThreadPool implements ThreadPool {
         }
     }
 
+
     class Worker implements Runnable {
         //是否工作
         private volatile boolean running = false;
+
 
         @Override
         public void run() {
@@ -131,6 +146,7 @@ public class DefaultThreadPool implements ThreadPool {
                 }
             }
         }
+
 
         public void shutdown() {
             running = false;

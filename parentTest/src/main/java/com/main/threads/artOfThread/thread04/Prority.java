@@ -1,4 +1,4 @@
-package com.main.threads.artOfThread.threadArt01;
+package com.main.threads.artOfThread.thread04;
 
 import java.util.ArrayList;
 import java.util.List;
