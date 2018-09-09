@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb516f7c-96cb-494e-8c97-8b448e13111e" name="Default" comment="修改问题">
-      <change afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread05/BoundedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread05/CacheData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,7 +16,7 @@
     <session id="-58422283">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.2" value="2" />
@@ -128,7 +126,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2080">
+            <state relative-caret-position="-2395">
               <caret line="1951" column="35" selection-start-line="1951" selection-start-column="26" selection-end-line="1951" selection-end-column="35" />
               <folding>
                 <element signature="e#22675#22676#0" expanded="true" />
@@ -364,7 +362,7 @@
     <property name="ToolWindowAnt Build.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536290156772" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536290215618" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Groovy" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
@@ -592,7 +590,7 @@
       <workItem from="1535975895152" duration="10024000" />
       <workItem from="1536057439761" duration="541000" />
       <workItem from="1536112166745" duration="836000" />
-      <workItem from="1536282892256" duration="6823000" />
+      <workItem from="1536282892256" duration="6894000" />
     </task>
     <task id="LOCAL-00001" summary="修改问题">
       <created>1522224392791</created>
@@ -665,13 +663,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203106000" />
+    <option name="totallyTimeSpent" value="203177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5083333" visible="true" weight="0.22761194" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5083333" visible="true" weight="0.22761194" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -684,7 +681,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32969216" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" visible="true" weight="0.32867885" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.3340494" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32901832" />
@@ -1130,7 +1127,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2080">
+        <state relative-caret-position="-2395">
           <caret line="1951" column="35" selection-start-line="1951" selection-start-column="26" selection-end-line="1951" selection-end-column="35" />
           <folding>
             <element signature="e#22675#22676#0" expanded="true" />
