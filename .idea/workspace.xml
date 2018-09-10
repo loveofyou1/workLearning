@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb516f7c-96cb-494e-8c97-8b448e13111e" name="Default" comment="修改问题">
-      <change afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/BlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/CountTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/AtomicReferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/AtomicReferenceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/parentTest/target/" />
@@ -28,17 +26,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="7" />
+          <entry key="class" value="8" />
           <entry key="gitignore" value="1" />
           <entry key="groovy" value="1" />
-          <entry key="java" value="132" />
+          <entry key="java" value="140" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="132" />
+          <entry key="CLASS" value="8" />
+          <entry key="JAVA" value="140" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="1" />
@@ -47,13 +45,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="13" />
-          <entry key="java" value="7946" />
+          <entry key="java" value="7971" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7946" />
+          <entry key="JAVA" value="7971" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="XML" value="4" />
         </counts>
@@ -103,27 +101,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/CountTask.java">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/AtomicIntegerArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+            <state relative-caret-position="336">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1281">
+              <caret line="67" column="30" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2032#2033#0" expanded="true" />
+                <element signature="e#2060#2061#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ForkJoinTask.java">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/AtomicReferenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="1128" column="5" lean-forward="true" selection-start-line="1128" selection-start-column="5" selection-end-line="1128" selection-end-column="5" />
+            <state relative-caret-position="630">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
-                <element signature="e#35565#35566#0" expanded="true" />
-                <element signature="e#35639#35640#0" expanded="true" />
-                <element signature="e#45747#45748#0" expanded="true" />
-                <element signature="e#45824#45825#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/parentTest/src/com/main/test/exception/TestException.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/test/nio/NioDemo2.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/TestNormal.java" />
         <option value="$PROJECT_DIR$/parentTest/src/com/main/test/normal/ReflectMethods.java" />
@@ -205,6 +210,7 @@
         <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/ArrayBlockingQueueTest.java" />
         <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/BlockingQueueTest.java" />
         <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/CountTask.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/AtomicReferenceTest.java" />
       </list>
     </option>
   </component>
@@ -376,7 +382,7 @@
     <property name="ToolWindowAnt Build.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536487509110" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536543463809" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Groovy" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
@@ -418,7 +424,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountTask">
+  <component name="RunManager" selected="Application.AtomicReferenceTest">
+    <configuration name="AtomicReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.threads.artOfThread.thread06.AtomicReferenceTest" />
+      <module name="parentTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.threads.artOfThread.thread06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BlockingQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.threads.artOfThread.thread06.BlockingQueueTest" />
       <module name="parentTest" />
@@ -475,20 +495,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Profiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.threads.artOfThread.thread04.Profiles" />
-      <module name="parentTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.threads.artOfThread.thread04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -510,19 +516,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Profiles" />
       <item itemvalue="Application.LockOne" />
       <item itemvalue="Application.FairAndUnFairTest" />
       <item itemvalue="Application.ArrayBlockingQueueTest" />
       <item itemvalue="Application.CountTask" />
+      <item itemvalue="Application.AtomicReferenceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtomicReferenceTest" />
         <item itemvalue="Application.CountTask" />
         <item itemvalue="Application.ArrayBlockingQueueTest" />
         <item itemvalue="Application.FairAndUnFairTest" />
         <item itemvalue="Application.LockOne" />
-        <item itemvalue="Application.Profiles" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +611,7 @@
       <workItem from="1536057439761" duration="541000" />
       <workItem from="1536112166745" duration="836000" />
       <workItem from="1536282892256" duration="6894000" />
-      <workItem from="1536456559836" duration="13315000" />
+      <workItem from="1536456559836" duration="16807000" />
     </task>
     <task id="LOCAL-00001" summary="修改问题">
       <created>1522224392791</created>
@@ -678,7 +684,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216492000" />
+    <option name="totallyTimeSpent" value="219984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -693,11 +699,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32008594" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3093448" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3093448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32832617" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32760474" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.3340494" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32901832" />
@@ -706,7 +712,7 @@
       <window_info anchor="bottom" content_ui="combo" id="Hierarchy" order="13" sideWeight="0.49751738" weight="0.28500497" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" auto_hide="true" id="Ant Build" order="1" type="SLIDING" weight="0.25" />
-      <window_info active="true" anchor="right" id="Structure" order="2" sideWeight="0.5024826" side_tool="true" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="2" sideWeight="0.5024826" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -752,76 +758,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1806">
-          <caret line="114" column="32" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread04/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/ref/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1847">
-          <caret line="130" column="50" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="176" column="30" lean-forward="true" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="680" column="27" selection-start-line="680" selection-start-column="21" selection-end-line="680" selection-end-column="27" />
-          <folding>
-            <element signature="e#3276#3277#0" expanded="true" />
-            <element signature="e#3337#3338#0" expanded="true" />
-            <element signature="e#4309#4310#0" expanded="true" />
-            <element signature="e#4336#4337#0" expanded="true" />
-            <element signature="e#7765#7766#0" expanded="true" />
-            <element signature="e#7802#7803#0" expanded="true" />
-            <element signature="e#8068#8069#0" expanded="true" />
-            <element signature="e#8137#8138#0" expanded="true" />
-            <element signature="e#11620#11621#0" expanded="true" />
-            <element signature="e#11678#11679#0" expanded="true" />
-            <element signature="e#13015#13045#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/ref/WeakReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="1004" column="9" lean-forward="true" selection-start-line="1004" selection-start-column="9" selection-end-line="1004" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/normal/TestReflect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1033,13 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="303" column="32" selection-start-line="303" selection-start-column="32" selection-end-line="303" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -1172,6 +1101,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/AbstractTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="207" column="13" selection-start-line="207" selection-start-column="13" selection-end-line="207" selection-end-column="13" />
+          <folding>
+            <element signature="e#7014#7015#0" expanded="true" />
+            <element signature="e#7048#7049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/AtomicIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicIntegerArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="183" column="57" lean-forward="true" selection-start-line="183" selection-start-column="57" selection-end-line="183" selection-end-column="57" />
+          <folding>
+            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="1260" column="12" lean-forward="true" selection-start-line="1260" selection-start-column="12" selection-end-line="1260" selection-end-column="12" />
+          <folding>
+            <element signature="e#35565#35566#0" expanded="true" />
+            <element signature="e#35639#35640#0" expanded="true" />
+            <element signature="e#45747#45748#0" expanded="true" />
+            <element signature="e#45824#45825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/CountTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="587">
@@ -1182,15 +1153,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ForkJoinTask.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/AtomicIntegerArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="1128" column="5" lean-forward="true" selection-start-line="1128" selection-start-column="5" selection-end-line="1128" selection-end-column="5" />
+        <state relative-caret-position="336">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="357" column="21" selection-start-line="357" selection-start-column="21" selection-end-line="357" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-631">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1281">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="30" />
           <folding>
-            <element signature="e#35565#35566#0" expanded="true" />
-            <element signature="e#35639#35640#0" expanded="true" />
-            <element signature="e#45747#45748#0" expanded="true" />
-            <element signature="e#45824#45825#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/threads/artOfThread/thread06/AtomicReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -14,10 +14,12 @@ public class AtomicReferenceTest {
     public static void main(String[] args) {
         User user = new User("sun", 15);
         reference.set(user);
+        //User update = new User("SUN", 20);
         User update = new User("SUN", 20);
-        reference.compareAndSet(user, update);
+        boolean isEqual = reference.compareAndSet(user, update);
         System.out.println(reference.get().getName());
         System.out.println(reference.get().getAge());
+        System.out.println(isEqual);
     }
 
     static private class User {
