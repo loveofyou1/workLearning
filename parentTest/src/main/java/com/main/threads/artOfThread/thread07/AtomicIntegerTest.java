@@ -1,4 +1,4 @@
-package com.main.threads.artOfThread.thread06;
+package com.main.threads.artOfThread.thread07;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
