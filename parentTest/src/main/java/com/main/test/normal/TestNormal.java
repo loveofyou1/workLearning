@@ -1,5 +1,6 @@
 package com.main.test.normal;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -39,6 +40,10 @@ public class TestNormal {
         Long long1 = 1L;
         Long long2 = 2L;
         System.out.println(long1.equals(long2));
+
+        BigDecimal negative = new BigDecimal(-1);
+        BigDecimal mul = new BigDecimal(1000000);
+        System.out.println(negative.multiply(mul));
     }
 
 
