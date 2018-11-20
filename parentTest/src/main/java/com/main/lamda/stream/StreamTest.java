@@ -7,6 +7,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
+import static java.util.stream.Collectors.reducing;
 import static java.util.stream.Collectors.toList;
 
 /**
@@ -37,5 +38,10 @@ public class StreamTest {
 
         Optional<Integer> sum = menu.stream().map(Dish::getCalories).reduce(Integer::sum);
         System.out.println(sum.get());
+
+        int totalCalories = menu.stream().mapToInt(Dish::getCalories).sum();
+        System.out.println(totalCalories);
+
+
     }
 }

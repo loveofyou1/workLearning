@@ -2,11 +2,10 @@ package com.main.lamda.chapter05;
 
 import com.alibaba.fastjson.JSON;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.*;
 
 public class TestTraderAndTransaction {
     private static Trader trader1 = new Trader("test1", "city1");
@@ -63,5 +62,12 @@ public class TestTraderAndTransaction {
         //所有交易中最小的交易额
         Optional<Integer> minValue = transactions.stream().map(Transaction::getValue).reduce(Integer::min);
         System.out.println(JSON.toJSONString(minValue));
+
+        Map<Integer, List<Transaction>> yearMap = transactions.stream().collect(groupingBy(Transaction::getYear));
+        //System.out.println(JSON.toJSONString(yearMap));
+        System.out.println(JSON.toJSONString(yearMap.entrySet().stream().filter(trans-> Integer.valueOf(trans.getKey())==2011).collect(toList())));
+
+        System.out.println(transactions.stream().collect(summarizingInt(tran-> tran.getValue())).getMax());
+        System.out.println(transactions.stream().map(transaction -> transaction.getTrader().getName()).collect(joining(",")));
     }
 }
