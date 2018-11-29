@@ -13,5 +13,12 @@ public class TestOptional {
         Person person = new Person(Optional.of(car));
         String insuranceName = person.getCar().flatMap(Car::getInsurance).map(Insurance::getName).orElse("Unknown");
         System.out.println(insuranceName);
+
+        try {
+            Long sum = Long.valueOf("2407223");
+            System.out.println(sum);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
