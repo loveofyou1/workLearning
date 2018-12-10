@@ -1,7 +1,9 @@
 package com.main.test.map;
 
-import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * @author sunlei19
@@ -9,11 +11,17 @@ import java.util.Map;
  */
 public class TestMap {
     public static void main(String[] args) {
-        Map<String, String> map = new HashMap<>();
+        Map<String, String> map = new LinkedHashMap<>();
         map.put("1", "1");
+        map.put("3", "3");
         map.put("2", "2");
-        map.put("1", "3");
 
-        System.out.println(map.toString());
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + ":" + entry.getValue());
+        }
+
+        Set<String> set = new HashSet<>();
+        set.add("1");
+        set.add("2");
     }
 }
