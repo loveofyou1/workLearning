@@ -3,7 +3,7 @@ package com.main.test;
 import com.main.impl.Child;
 import com.main.service.ParentInterface;
 import com.main.test.jackson.User;
-import com.main.threads.util.SleepUtil;
+import com.main.learn.threads.util.SleepUtil;
 
 /**
  * @author sunlei19
