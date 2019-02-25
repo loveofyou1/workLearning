@@ -1,0 +1,14 @@
+
+N
+squid:S106."9Replace this use of System.out or System.err by a logger.(öŠö
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷Â« þÿÿÿÿ
+O
+squid:S106E"9Replace this use of System.out or System.err by a logger.(Ö­¹Ø
+O
+squid:S106H"9Replace this use of System.out or System.err by a logger.(íËƒò
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ú­‚ üÿÿÿÿ
+gsquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(ö¡ÜŽùÿÿÿÿ
+Wsquid:UnusedPrivateMethod2"-Remove this unused private "checkMap" method.(‡Œ•öúÿÿÿÿ
+T
+squid:S106*"9Replace this use of System.out or System.err by a logger.(‰Ó¶£ýÿÿÿÿ
+?squid:S1481A"(Remove this unused "str" local variable.(˜¶Ôç
