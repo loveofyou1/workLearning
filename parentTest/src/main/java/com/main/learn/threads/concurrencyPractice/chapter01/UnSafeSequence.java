@@ -3,7 +3,8 @@ package com.main.learn.threads.concurrencyPractice.chapter01;
 import net.jcip.annotations.NotThreadSafe;
 
 /**
- * 不安全的
+ * @author sunlei19
+ * @create 2019/2/22
  */
 @NotThreadSafe
 public class UnSafeSequence {
@@ -11,6 +12,7 @@ public class UnSafeSequence {
 
     /**
      * 返回一个唯一的数值
+     *
      * @return
      */
     public int getValue() {
