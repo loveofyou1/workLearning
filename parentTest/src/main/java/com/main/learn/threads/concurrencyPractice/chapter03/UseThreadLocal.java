@@ -10,17 +10,15 @@ import java.sql.SQLException;
  */
 public class UseThreadLocal {
     private static final String DB_URL = "dburl";
-    private static ThreadLocal<Connection> connectionHolder = new ThreadLocal<Connection>() {
-        public Connection initialValue() {
-            Connection connection = null;
-            try {
-                connection = DriverManager.getConnection(DB_URL);
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-            return connection;
+    private static ThreadLocal<Connection> connectionHolder = ThreadLocal.withInitial(() -> {
+        Connection connection = null;
+        try {
+            connection = DriverManager.getConnection(DB_URL);
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
-    };
+        return connection;
+    });
 
 
     public static Connection getConnection() {
