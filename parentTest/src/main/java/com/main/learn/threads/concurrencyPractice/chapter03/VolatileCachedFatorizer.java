@@ -32,11 +32,10 @@ public class VolatileCachedFatorizer implements Servlet {
             factors = factors(i);
             cache = new OneValueCache(i, factors);
         }
-        encodeIntoResponse(servletResponse,factors);
+        encodeIntoResponse(servletResponse, factors);
     }
 
-    private void encodeIntoResponse( ServletResponse servletResponse, BigInteger[] factors) {
-        servletResponse.
+    private void encodeIntoResponse(ServletResponse servletResponse, BigInteger[] factors) {
     }
 
     private BigInteger[] factors(BigInteger i) {
