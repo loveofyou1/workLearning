@@ -1,4 +1,4 @@
-package com.main.learn.threads.concurrencyPractice.chapter05;
+package com.main.learn.threads.concurrencyPractice.chapter5;
 
 import java.io.File;
 import java.io.FileFilter;

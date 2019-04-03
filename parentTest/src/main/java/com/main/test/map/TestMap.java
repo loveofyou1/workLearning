@@ -20,6 +20,8 @@ public class TestMap {
             System.out.println(entry.getKey() + ":" + entry.getValue());
         }
 
+        System.out.println(Runtime.getRuntime().availableProcessors());
+
         Set<String> set = new HashSet<>();
         set.add("1");
         set.add("2");

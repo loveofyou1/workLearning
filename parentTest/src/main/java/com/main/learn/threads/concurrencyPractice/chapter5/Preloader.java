@@ -1,4 +1,4 @@
-package com.main.learn.threads.concurrencyPractice.chapter05;
+package com.main.learn.threads.concurrencyPractice.chapter5;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
