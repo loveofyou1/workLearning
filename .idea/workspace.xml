@@ -4,24 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb516f7c-96cb-494e-8c97-8b448e13111e" name="Default" comment="线程池开始">
+    <list default="true" id="eb516f7c-96cb-494e-8c97-8b448e13111e" name="Default" comment="线程池代码整理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/BoundedHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/BoundedHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/CellularAutomata.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/CellularAutomata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/Computable.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/Computable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/ExpensiveFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/ExpensiveFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/FileCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/FileCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/Indexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/Indexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/Memoizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/Memoizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/Memoizer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/Memoizer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/Memoizer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/Memoizer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/Memoizer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/Memoizer3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/Preloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/Preloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/ProductInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter05/TestHarness.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/TestHarness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter8/TimingThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter8/TimingThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/test/map/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/test/map/TestMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/Dispatcher.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/parentTest/target/" />
@@ -37,64 +22,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ExecutorCompletionService.java">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/Taxi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1729">
-              <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/Future.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2109">
-              <caret line="144" column="49" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/map/TestMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter8/TimingThreadPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/LeftRightDeadLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="513">
+              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/ResolveDynmicDeadLock.java">
+        <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/Dispatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/CompletionService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            <state relative-caret-position="437">
+              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+              <folding>
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/designModel/factory/abstractFactory2/NvWa2.java" />
         <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/designModel/factory/abstractFactory2/HumanFactory.java" />
         <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/designModel/factory/abstractFactory2/FemaleFactory.java" />
         <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/designModel/factory/abstractFactory2/MaleFactory.java" />
@@ -180,6 +123,7 @@
         <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/test/normal/collection/TestMap.java" />
         <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/test/map/TestMap.java" />
         <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter8/TimingThreadPool.java" />
+        <option value="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/Dispatcher.java" />
       </list>
     </option>
   </component>
@@ -212,10 +156,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1096" />
-    <option name="height" value="1906" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -239,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,7 +256,7 @@
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="threads" type="462c0819:PsiDirectoryNode" />
               <item name="concurrencyPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter8" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -325,42 +268,13 @@
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="threads" type="462c0819:PsiDirectoryNode" />
               <item name="concurrencyPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="normal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="normal" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -671,7 +585,9 @@
       <workItem from="1554168501150" duration="1141000" />
       <workItem from="1554169897677" duration="656000" />
       <workItem from="1554194731723" duration="106000" />
-      <workItem from="1554206450240" duration="971000" />
+      <workItem from="1554206450240" duration="1030000" />
+      <workItem from="1554256420401" duration="200000" />
+      <workItem from="1555461754534" duration="1943000" />
     </task>
     <task id="LOCAL-00001" summary="修改问题">
       <created>1522224392791</created>
@@ -855,7 +771,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553823570191</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="线程池代码整理">
+      <created>1554253067438</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1554253067438</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -870,13 +793,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470071000" />
+    <option name="totallyTimeSpent" value="472273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1096" height="1906" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1497" y="67" width="405" height="853" id="Project" order="0" sideWeight="0.5083333" type="FLOATING" visible="true" weight="0.43339768" />
+      <window_info active="true" content_ui="combo" x="1497" y="67" width="405" height="853" id="Project" order="0" sideWeight="0.5083333" visible="true" weight="0.22547974" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -889,7 +812,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4980695" visible="true" weight="0.31997743" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4980695" weight="0.6083691" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5019305" side_tool="true" weight="0.32054177" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.37302482" />
@@ -901,7 +824,7 @@
       <window_info anchor="bottom" id="风险组件扫描" order="16" />
       <window_info anchor="bottom" id="Duplication Code Results" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" auto_hide="true" id="Ant Build" order="1" type="SLIDING" weight="0.25" />
+      <window_info anchor="right" auto_hide="true" id="Ant Build" internal_type="SLIDING" order="1" type="SLIDING" weight="0.25" />
       <window_info anchor="right" id="Structure" order="2" sideWeight="0.5008157" side_tool="true" weight="0.3146718" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
@@ -957,7 +880,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改问题" />
     <MESSAGE value="锁和状态工具类" />
     <MESSAGE value="第十四章" />
     <MESSAGE value="原子性和非阻塞同步机制，内存模型jmm" />
@@ -982,7 +904,8 @@
     <MESSAGE value="创建型设计模式学习" />
     <MESSAGE value="结构型模式和行为型模式" />
     <MESSAGE value="线程池开始" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程池开始" />
+    <MESSAGE value="线程池代码整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程池代码整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,47 +964,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/FileCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/TestHarness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/Preloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter5/BoundedHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/CyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1919">
@@ -1394,38 +1276,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2109">
-          <caret line="144" column="49" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/CompletionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/map/TestMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="2012" column="19" selection-start-line="2012" selection-start-column="19" selection-end-line="2012" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ExecutorCompletionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1436,24 +1290,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter8/TimingThreadPool.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="2109">
+          <caret line="144" column="49" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/LeftRightDeadLock.java">
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/test/map/TestMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="456">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter8/TimingThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/ResolveDynmicDeadLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+        <state relative-caret-position="627">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/CompletionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ExecutorCompletionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/LeftRightDeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/Taxi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter11/AttributeStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/concurrencyPractice/chapter10/Dispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
