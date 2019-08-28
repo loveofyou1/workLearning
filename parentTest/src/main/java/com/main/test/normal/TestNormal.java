@@ -37,15 +37,34 @@ public class TestNormal {
         //测试多层循环
         //System.out.println(checkMap());
         //Long数据比较
-        Long long1 = 1L;
+  /*      Long long1 = 1L;
         Long long2 = 2L;
         System.out.println(long1.equals(long2));
 
         BigDecimal negative = new BigDecimal(-1);
         BigDecimal mul = new BigDecimal(1000000);
-        System.out.println(negative.multiply(mul));
+        System.out.println(negative.multiply(mul));*/
+        System.out.println(phoneSecret("1234567890"));
+        String testStr = "000013243232";
+            System.out.println(testStr.startsWith("0000"));
+        System.out.println(testStr.startsWith("0000",0));
+        System.out.println(testStr.substring(4));
     }
 
+    private static String phoneSecret(String consigneePhone) {
+        StringBuilder phoneStr = new StringBuilder();
+        int length = consigneePhone.length();
+        if (consigneePhone != null && length > 7) {
+            String fore = consigneePhone.substring(0, 3);
+            String after = consigneePhone.substring(length - 4, length);
+            phoneStr.append(fore);
+            for (int i = 0; i < length - 7; i++) {
+                phoneStr.append("*");
+            }
+            phoneStr.append(after);
+        }
+        return phoneStr.toString();
+    }
 
     private static boolean checkMap() {
 
