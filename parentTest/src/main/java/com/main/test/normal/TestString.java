@@ -3,6 +3,8 @@ package com.main.test.normal;
 import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Sets;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.util.Set;
 
 public class TestString {
@@ -21,9 +23,13 @@ public class TestString {
         if (!(errorSet == null || errorSet.isEmpty())) {
             System.out.println(JSON.toJSONString(errorSet));
         }*/
-        String colorStr = "purple";
+  /*      String colorStr = "purple";
         String[] colors = colorStr.split(",");
         System.out.println(JSON.toJSONString(colors));
+*/
+        BigDecimal bigDecimal = new BigDecimal("666770000.00");
+        BigInteger bigInteger = bigDecimal.toBigInteger();
+        System.out.println(bigInteger.toString());
     }
 
 
