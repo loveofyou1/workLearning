@@ -1,10 +1,5 @@
 package com.main.test.map;
 
-import com.alibaba.fastjson.JSON;
-
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
 import com.google.common.collect.Maps;
 
 import java.util.*;
@@ -38,21 +33,22 @@ public class TestMap {
         Map<String, Object> test = JSON.parseObject(json, Map.class);
         System.out.println(test);*/
 
-        String uaLanguage = substringBetween("Language/en_US ","Language/"," ");
+        String uaLanguage = substringBetween("Language/en_US ", "Language/", " ");
         System.out.println(uaLanguage);
         String hello = "Language/en_US";
         int start = hello.indexOf("Language/");
         int end = start + "Language/".length() + 5;
-        System.out.println(hello.substring(start + "Language/".length(),end));
+        System.out.println(hello.substring(start + "Language/".length(), end));
         System.out.println(subLanguageStr(hello));
         String stock = "stock_1";
-        System.out.println(stock.substring(0,6));
+        System.out.println(stock.substring(0, 6));
 
         Set<String> set = new HashSet<>();
         set.add("1");
         set.add("2");
 
         testLinkedMap();
+        splite();
     }
 
 
@@ -98,6 +94,14 @@ public class TestMap {
 
         for (Map.Entry<Integer, String> entry : histNew.entrySet()) {
             System.out.println(entry.getKey() + ":" + entry.getValue());
+        }
+    }
+
+    private static void splite() {
+        String str = "Black 50pcs";
+        String[] arrs = str.split(",");
+        for (String string : arrs) {
+            System.out.println(string);
         }
     }
 }
