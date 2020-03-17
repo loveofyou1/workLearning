@@ -22,14 +22,14 @@ public class FairAndUnFairTest {
     }
 
     private static void testLock() {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 500000; i++) {
             Job job = new Job(fairLock);
             job.start();
         }
     }
 
     private static void testUnFairLock() {
-        for (int j = 0; j < 5; j++) {
+        for (int j = 0; j < 500000; j++) {
             Job job = new Job(unfairLock);
             job.start();
         }
@@ -43,7 +43,7 @@ public class FairAndUnFairTest {
         }
 
         public void run() {
-            System.out.println("job ");
+            System.out.println(Thread.currentThread().getName() + " job ");
         }
     }
 

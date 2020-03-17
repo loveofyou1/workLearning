@@ -5,6 +5,7 @@ import com.google.common.collect.Sets;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.util.HashSet;
 import java.util.Set;
 
 public class TestString {
@@ -29,7 +30,13 @@ public class TestString {
 */
         BigDecimal bigDecimal = new BigDecimal("666770000.00");
         BigInteger bigInteger = bigDecimal.toBigInteger();
-        System.out.println(bigInteger.toString());
+        //System.out.println(bigInteger.toString());
+
+        Set<Long> set = new HashSet<>();
+        set.add(1L);
+        set.add(2L);
+        set.add(3L);
+        System.out.printf(set.toString().replace("[", "(").replace("]", ")"));
     }
 
 

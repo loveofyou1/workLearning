@@ -1,10 +1,11 @@
 package com.main.test.normal;
 
-import java.math.BigDecimal;
+import com.google.common.collect.Lists;
+
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
+import java.util.Set;
 
 public class TestNormal {
     public static void main(String[] args) {
@@ -44,13 +45,46 @@ public class TestNormal {
         BigDecimal negative = new BigDecimal(-1);
         BigDecimal mul = new BigDecimal(1000000);
         System.out.println(negative.multiply(mul));*/
-        System.out.println(phoneSecret("1234567890"));
+   /*     System.out.println(phoneSecret("1234567890"));
         String testStr = "000013243232";
             System.out.println(testStr.startsWith("0000"));
         System.out.println(testStr.startsWith("0000",0));
-        System.out.println(testStr.substring(4));
+        System.out.println(testStr.substring(4));*/
+
+        List<Long> ids = Lists.newArrayList();
+        for (long i = 0; i < 301; i++) {
+            ids.add(i);
+        }
+
+        List<Set<Long>> list = convertListToSetIds(ids, 100);
+
+        for (Set<Long> set : list) {
+            System.out.println(set);
+        }
+
     }
 
+    /**
+     * 将Id列表每num个一组拆分成集合
+     *
+     * @param ids
+     * @return
+     */
+    private static List<Set<Long>> convertListToSetIds(List<Long> ids, int num) {
+        int length = ids.size();
+        int div = length / num;
+        int mod = length % num;
+        div = mod > 0 ? ++div : div;
+
+        List<Set<Long>> idSet = new ArrayList<>(div);
+        for (int j = 0; j < div; j++) {
+            int end = (j + 1) * num;
+            idSet.add(new HashSet<>(ids.subList(j * num, end > length ? length : end)));
+        }
+        return idSet;
+    }
+
+/*
     private static String phoneSecret(String consigneePhone) {
         StringBuilder phoneStr = new StringBuilder();
         int length = consigneePhone.length();
@@ -90,5 +124,5 @@ public class TestNormal {
         }
         System.out.println("last");
         return isCheck;
-    }
+    }*/
 }
