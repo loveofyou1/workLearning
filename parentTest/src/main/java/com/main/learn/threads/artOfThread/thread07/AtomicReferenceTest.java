@@ -17,6 +17,10 @@ public class AtomicReferenceTest {
         //User update = new User("SUN", 20);
         User update = new User("SUN", 20);
         boolean isEqual = reference.compareAndSet(user, update);
+        reference.updateAndGet((user1) -> {
+            user1.setAge(user1.getAge() + 1);
+            return user1;
+        });
         System.out.println(reference.get().getName());
         System.out.println(reference.get().getAge());
         System.out.println(isEqual);

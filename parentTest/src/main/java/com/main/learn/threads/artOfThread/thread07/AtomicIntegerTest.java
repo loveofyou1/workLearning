@@ -12,5 +12,7 @@ public class AtomicIntegerTest {
     public static void main(String[] args) {
         System.out.println(ai.getAndIncrement());
         System.out.println(ai.get());
+        System.out.println(ai.addAndGet(10));
+        System.out.println(ai.incrementAndGet());
     }
 }

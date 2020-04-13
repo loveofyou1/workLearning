@@ -4,9 +4,17 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb516f7c-96cb-494e-8c97-8b448e13111e" name="Default" comment="增加测试类">
-      <change afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/artOfThread/thread06/OneQueueTest.java" afterDir="false" />
+    <list default="true" id="eb516f7c-96cb-494e-8c97-8b448e13111e" name="Default" comment="测试类修改">
+      <change afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/algorithm/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/algorithm/sort/BubbleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/algorithm/tree/BinaryTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/artOfThread/thread07/CompleteServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/artOfThread/thread07/AtomicIntegerArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/artOfThread/thread07/AtomicIntegerArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/artOfThread/thread07/AtomicIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/artOfThread/thread07/AtomicIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/artOfThread/thread07/AtomicReferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/threads/artOfThread/thread07/AtomicReferenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentTest/src/main/java/com/main/test/normal/TestNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/parentTest/src/main/java/com/main/test/normal/TestNormal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,22 +111,36 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.main.test.normal.reflect.impl" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\kaifa\project\test\workLearning\parentTest\src\main\java\com\main\test\normal" />
+      <recent name="D:\kaifa\project\test\workLearning\parentTest\src\main\java\com\main\threads\artOfThread\thread04" />
+      <recent name="D:\kaifa\project\test\workLearning\parentTest" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.main.learn.threads.concurrencyPractice.chapter05" />
       <recent name="com.main.threads.artOfThread.thread08" />
       <recent name="com.main.designModel.builder" />
       <recent name="com.main.threads.concurrencyPractice.chapter13" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\kaifa\project\test\workLearning\parentTest\src\main\java\com\main\test\normal" />
-      <recent name="D:\kaifa\project\test\workLearning\parentTest\src\main\java\com\main\threads\artOfThread\thread04" />
-      <recent name="D:\kaifa\project\test\workLearning\parentTest" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.OneQueueTest">
+  <component name="RunManager" selected="Application.BubbleTest">
+    <configuration name="BinaryTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.learn.algorithm.tree.BinaryTreeTest" />
+      <module name="parentTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.learn.algorithm.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BlockingQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.learn.threads.artOfThread.thread06.BlockingQueueTest" />
       <module name="parentTest" />
@@ -133,33 +155,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FairAndUnFairTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.learn.threads.artOfThread.thread05.FairAndUnFairTest" />
+    <configuration name="BubbleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.learn.algorithm.sort.BubbleTest" />
       <module name="parentTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.main.learn.threads.artOfThread.thread05.*" />
+          <option name="PATTERN" value="com.main.learn.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <RunnerSettings RunnerId="Debug with VisualVM">
-        <option name="visualVMId" value="436366426585763" />
+        <option name="visualVMId" value="323765477295125" />
       </RunnerSettings>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OneQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.learn.threads.artOfThread.thread06.OneQueueTest" />
-      <module name="parentTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.learn.threads.artOfThread.thread06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,19 +223,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FairAndUnFairTest" />
       <item itemvalue="Application.BlockingQueueTest" />
       <item itemvalue="Application.TestString" />
       <item itemvalue="Application.TestCollectionSort" />
-      <item itemvalue="Application.OneQueueTest" />
+      <item itemvalue="Application.BinaryTreeTest" />
+      <item itemvalue="Application.BubbleTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OneQueueTest" />
+        <item itemvalue="Application.BubbleTest" />
+        <item itemvalue="Application.BinaryTreeTest" />
         <item itemvalue="Application.TestCollectionSort" />
         <item itemvalue="Application.TestString" />
         <item itemvalue="Application.BlockingQueueTest" />
-        <item itemvalue="Application.FairAndUnFairTest" />
       </list>
     </recent_temporary>
   </component>
@@ -421,8 +429,8 @@
       <workItem from="1583285280951" duration="7156000" />
       <workItem from="1583818137485" duration="721000" />
       <workItem from="1583828606112" duration="857000" />
-      <workItem from="1584435922035" duration="2387000" />
-      <workItem from="1584580438932" duration="11100000" />
+      <workItem from="1584435922035" duration="259000" />
+      <workItem from="1586680495723" duration="3912000" />
     </task>
     <task id="LOCAL-00001" summary="修改问题">
       <created>1522224392791</created>
@@ -627,14 +635,7 @@
       <option name="project" value="LOCAL" />
       <updated>1570019985241</updated>
     </task>
-    <task id="LOCAL-00030" summary="增加测试类">
-      <created>1584436203925</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1584436203925</updated>
-    </task>
-    <option name="localTasksCounter" value="31" />
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -679,6 +680,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="原子性和非阻塞同步机制，内存模型jmm" />
     <MESSAGE value="增加设计模式包" />
     <MESSAGE value="设计模式：单例、工厂、建造者" />
     <MESSAGE value="适配器模式" />
@@ -703,115 +705,104 @@
     <MESSAGE value="线程池代码整理" />
     <MESSAGE value="测试linkedMap" />
     <MESSAGE value="观察者模式" />
-    <MESSAGE value="增加测试类" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="观察者模式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1577929627566">
-      <screen x="0" y="0" width="1920" height="1046" />
+    <state x="560" y="205" key="#VisualVM_Launcher" timestamp="1586681418880">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1046@0.0.1920.1046" timestamp="1577929627566" />
+    <state x="560" y="205" key="#VisualVM_Launcher/0.0.1920.1080@0.0.1920.1080" timestamp="1586681418880" />
     <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583198165042">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1583198165042" />
-    <state x="715" y="231" key="#xdebugger.evaluate" timestamp="1577943627630">
-      <screen x="0" y="0" width="1920" height="1046" />
-    </state>
-    <state x="715" y="231" key="#xdebugger.evaluate/0.0.1920.1046@0.0.1920.1046" timestamp="1577943627630" />
-    <state x="547" y="116" key="CommitChangelistDialog2" timestamp="1584436200175">
-      <screen x="0" y="0" width="1920" height="1046" />
-    </state>
-    <state x="547" y="116" key="CommitChangelistDialog2/0.0.1920.1046@0.0.1920.1046" timestamp="1584436200175" />
-    <state width="422" height="482" key="DebuggerActiveHint" timestamp="1584586136276">
+    <state width="1878" height="296" key="GridCell.Tab.0.bottom" timestamp="1586702382644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="422" height="466" key="DebuggerActiveHint/0.0.1920.1046@0.0.1920.1046" timestamp="1577929037859" />
-    <state width="422" height="482" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1584586136276" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1584587350489">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1586663705004" />
     <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1583829795982" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584587350489" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1584587350489">
+    <state width="1878" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586702382644" />
+    <state width="1878" height="296" key="GridCell.Tab.0.center" timestamp="1586702382642">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1586663705003" />
     <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1583829795982" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584587350489" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1584587350489">
+    <state width="1878" height="296" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586702382642" />
+    <state width="1878" height="296" key="GridCell.Tab.0.left" timestamp="1586702382642">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1586663705002" />
     <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1583829795982" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584587350489" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1584587350489">
+    <state width="1878" height="296" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586702382642" />
+    <state width="1878" height="296" key="GridCell.Tab.0.right" timestamp="1586702382643">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586663705004" />
     <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1583829795982" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584587350489" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1584587350489">
+    <state width="1878" height="296" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586702382643" />
+    <state width="1878" height="297" key="GridCell.Tab.1.bottom" timestamp="1586681893853">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.1.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1583201751254" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584587350489" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1584587350489">
+    <state width="1878" height="297" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586681893853" />
+    <state width="1878" height="297" key="GridCell.Tab.1.center" timestamp="1586681893851">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.1.center/0.0.1920.1046@0.0.1920.1046" timestamp="1583201751254" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584587350489" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1584587350489">
+    <state width="1878" height="297" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586681893851" />
+    <state width="1878" height="297" key="GridCell.Tab.1.left" timestamp="1586681893851">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.1.left/0.0.1920.1046@0.0.1920.1046" timestamp="1583201751254" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584587350489" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1584587350489">
+    <state width="1878" height="297" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586681893851" />
+    <state width="1878" height="297" key="GridCell.Tab.1.right" timestamp="1586681893852">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="284" key="GridCell.Tab.1.right/0.0.1920.1046@0.0.1920.1046" timestamp="1583201751254" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584587350489" />
+    <state width="1878" height="297" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586681893852" />
     <state x="600" y="226" key="NewModule_or_Project.wizard" timestamp="1583220197332">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="600" y="226" key="NewModule_or_Project.wizard/0.0.1920.1046@0.0.1920.1046" timestamp="1583220197332" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1584585992436">
+    <state x="482" y="145" key="SettingsEditor" timestamp="1586681662149">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1046@0.0.1920.1046" timestamp="1583200128366" />
-    <state x="461" y="169" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1584585992436" />
-    <state x="681" y="273" width="582" height="542" key="StructurePopup" timestamp="1584586757705">
+    <state x="482" y="145" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586681662149" />
+    <state x="681" y="273" width="567" height="542" key="StructurePopup" timestamp="1586683912334">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="681" y="264" width="582" height="524" key="StructurePopup/0.0.1920.1046@0.0.1920.1046" timestamp="1584436303409" />
-    <state x="681" y="273" width="582" height="542" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1584586757705" />
+    <state x="681" y="264" width="567" height="524" key="StructurePopup/0.0.1920.1046@0.0.1920.1046" timestamp="1583293401131" />
+    <state x="681" y="273" width="567" height="542" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1586683912334" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1583220252862">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1046@0.0.1920.1046" timestamp="1583220252862" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1584436214404">
-      <screen x="0" y="0" width="1920" height="1046" />
-    </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1046@0.0.1920.1046" timestamp="1584436214404" />
-    <state x="539" y="137" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584436692411">
-      <screen x="0" y="0" width="1920" height="1046" />
-    </state>
-    <state x="539" y="137" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1046@0.0.1920.1046" timestamp="1584436692411" />
-    <state x="514" y="271" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584587348825">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="514" y="262" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1046@0.0.1920.1046" timestamp="1577928969569" />
-    <state x="514" y="271" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1584587348825" />
-    <state x="690" y="293" key="extract.method.dialog" timestamp="1584587301647">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="690" y="293" key="extract.method.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584587301647" />
     <state x="616" y="242" key="run.anything.popup" timestamp="1583292590957">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="616" y="242" key="run.anything.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1583292590957" />
-    <state x="623" y="233" width="672" height="701" key="search.everywhere.popup" timestamp="1584585237025">
+    <state x="623" y="233" width="672" height="701" key="search.everywhere.popup" timestamp="1586702412131">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1583293085228" />
-    <state x="623" y="233" width="672" height="701" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1584585237025" />
+    <state x="623" y="233" width="672" height="701" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586702412131" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Long.java</url>
+          <line>1074</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/parentTest/src/main/java/com/main/learn/designModel/structuralModel/adpter/Client.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

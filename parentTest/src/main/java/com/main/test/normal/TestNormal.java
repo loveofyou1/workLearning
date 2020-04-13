@@ -51,7 +51,7 @@ public class TestNormal {
         System.out.println(testStr.startsWith("0000",0));
         System.out.println(testStr.substring(4));*/
 
-        List<Long> ids = Lists.newArrayList();
+   /*     List<Long> ids = Lists.newArrayList();
         for (long i = 0; i < 301; i++) {
             ids.add(i);
         }
@@ -61,7 +61,18 @@ public class TestNormal {
         for (Set<Long> set : list) {
             System.out.println(set);
         }
+*/
 
+        String vender = "10794\n" +
+                "10958\n" +
+                "11092\n" +
+                "11133\n" +
+                "11140\n" +
+                "11141\n" +
+                "11142\n" +
+                "11144\n" +
+                "11156\n" +
+                "11158";
     }
 
     /**
