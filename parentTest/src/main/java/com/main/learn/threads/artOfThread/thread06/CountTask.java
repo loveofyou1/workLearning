@@ -53,7 +53,7 @@ public class CountTask extends RecursiveTask<Integer> {
     public static void main(String[] args) {
         ForkJoinPool forkJoinPool = new ForkJoinPool();
         //生成一个计算1+2+3+4
-        CountTask countTask = new CountTask(1, 4);
+        CountTask countTask = new CountTask(1, 16);
         //执行一个任务
         Future<Integer> future = forkJoinPool.submit(countTask);
 
