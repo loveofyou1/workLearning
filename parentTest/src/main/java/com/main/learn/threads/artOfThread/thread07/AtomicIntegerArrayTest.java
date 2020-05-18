@@ -12,6 +12,7 @@ public class AtomicIntegerArrayTest {
 
     public static void main(String[] args) {
         atomicIntegerArray.getAndSet(0, 3);
+        System.out.println(atomicIntegerArray);
         System.out.println(atomicIntegerArray.get(0));
         System.out.println(value[0]);
     }
