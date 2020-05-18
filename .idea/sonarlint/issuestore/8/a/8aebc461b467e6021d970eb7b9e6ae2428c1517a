@@ -1,27 +1,0 @@
-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÃ§ıÿÿÿÿ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(ïÏ›¹
-O
-squid:S106%"9Replace this use of System.out or System.err by a logger.(è¨ƒú
-T
-squid:S106="9Replace this use of System.out or System.err by a logger.(÷å«Õÿÿÿÿÿ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(Çş»
-Nsquid:S3655>"2Call "min.isPresent()" before accessing the value.(ê­ÙŸùÿÿÿÿ
-T
-squid:S106!"9Replace this use of System.out or System.err by a logger.(şĞ½úÿÿÿÿ
-O
-squid:S1060"9Replace this use of System.out or System.err by a logger.(²ççÏ
-T
-squid:S1063"9Replace this use of System.out or System.err by a logger.(Îß½éÿÿÿÿÿ
-T
-squid:S106<"9Replace this use of System.out or System.err by a logger.(’µ«ªøÿÿÿÿ
-T
-squid:S106>"9Replace this use of System.out or System.err by a logger.(ê­ÙŸùÿÿÿÿ
-O
-squid:S106-"9Replace this use of System.out or System.err by a logger.(ÄııØ
-Nsquid:S3655="2Call "max.isPresent()" before accessing the value.(÷å«Õÿÿÿÿÿ
-T
-squid:S1066"9Replace this use of System.out or System.err by a logger.(ã•Æìùÿÿÿÿ
