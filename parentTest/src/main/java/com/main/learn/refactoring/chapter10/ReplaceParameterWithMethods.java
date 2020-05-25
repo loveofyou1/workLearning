@@ -12,8 +12,10 @@ public class ReplaceParameterWithMethods {
     private static double getPrice() {
         if (getDiscountLevel() == 2) {
             return getBasePrice() * 0.1;
-        } else
+        } else {
             return getBasePrice() * 0.05;
+        }
+
     }
 
     private static int getBasePrice() {
