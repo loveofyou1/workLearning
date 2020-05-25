@@ -1,12 +1,9 @@
 package com.main.test.normal;
 
-import com.alibaba.fastjson.JSON;
-import com.google.common.collect.Sets;
+import com.sun.deploy.util.StringUtils;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.util.HashSet;
-import java.util.Set;
 
 public class TestString {
     public static void main(String[] args) {
@@ -32,11 +29,43 @@ public class TestString {
         BigInteger bigInteger = bigDecimal.toBigInteger();
         //System.out.println(bigInteger.toString());
 
+/*
         Set<Long> set = new HashSet<>();
         set.add(1L);
         set.add(2L);
         set.add(3L);
         System.out.printf(set.toString().replace("[", "(").replace("]", ")"));
+*/
+
+ /*       String hello = "\t5311107";
+        //String replaceStr = hello.replace(" ", "");
+
+        //System.out.println(replaceStr);
+        try {
+            BigDecimal bigDecimal1 = new BigDecimal(hello);
+            java.lang.Integer.valueOf(hello);
+            System.out.println(bigDecimal1);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }*/
+/*        String category = "1";
+        String[] arr = category.split("_");
+        for (int i = 0; i < arr.length; i++) {
+           // System.out.println(arr.length);
+           // System.out.println(i + arr[i]);
+        }
+
+        String str = " 7083406 \n\t";
+        str = str.replaceAll(" ","").replaceAll("\n","");
+        System.out.println(str);*/
+        String test ="";
+        int count=0;
+        do {
+            test = "nihao";
+            count++;
+            System.out.println(count);
+        }while (test != null && test.length() == 0 && count<3);
+        System.out.println(test+":" +count);
     }
 
 
@@ -56,5 +85,18 @@ public class TestString {
 
     public static boolean isEmpty(CharSequence cs) {
         return cs == null || cs.length() == 0;
+    }
+
+    public static boolean isNumeric(String str) {
+        if (str == null) {
+            return false;
+        }
+        int sz = str.length();
+        for (int i = 0; i < sz; i++) {
+            if (Character.isDigit(str.charAt(i)) == false) {
+                return false;
+            }
+        }
+        return true;
     }
 }
