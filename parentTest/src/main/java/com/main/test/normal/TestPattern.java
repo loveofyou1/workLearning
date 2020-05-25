@@ -11,8 +11,8 @@ import java.util.regex.Pattern;
  */
 public class TestPattern {
     public static void main(String[] args) {
-        String saleName = "你好!@~#$%^&*()_+-=1234567890abcdefdsfklauopwqwerttyyuuioioplkjhgfdsazxcvbnbn,m<>?||;'\"";
-        String regex = "[^A-Za-z0-9\\+_\\-:\\u0E00-\\u0E7F\\.\\(\\)\\<\\>\\?\\@\\#\\$\\%\\&\\*\\=\\+\\~\\;\\,\\!\\'\\“\\”]+";
+        String saleName = "你好!@~#$%^&*()_+-=1234567890abcdefdsfklauopwqwerttyyuuioioplkjhgfdsazxcvbnbn,m<>?||;\\/\\'\"\\（\\）";
+        String regex = "[^A-Za-z0-9\\+_\\-:\\u0E00-\\u0E7F\\.\\(\\)\\（\\）\\<\\>\\?\\@\\#\\$\\%\\&\\*\\=\\+\\~\\;\\,\\!\\^\\'\\“\\”\\/\\\\]+";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(saleName);
         StringBuilder illegal = new StringBuilder();
