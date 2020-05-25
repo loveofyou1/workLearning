@@ -15,6 +15,7 @@ public class ReplaceParameterWithMethods {
         } else {
             return getBasePrice() * 0.05;
         }
+
     }
 
     private static int getBasePrice() {
