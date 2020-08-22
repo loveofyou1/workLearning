@@ -13,7 +13,7 @@ public class NioDemo01 {
     public static void main(String[] args) {
         RandomAccessFile afile = null;
         try {
-            afile = new RandomAccessFile("src/nio.txt", "rw");
+            afile = new RandomAccessFile("src\\nio.txt", "rw");
             FileChannel fileChannel = afile.getChannel();
             ByteBuffer buf = ByteBuffer.allocate(1024);
 
