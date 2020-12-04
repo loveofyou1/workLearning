@@ -9,6 +9,5 @@ public class ThreadLocalTest {
 
     public void test() {
         System.out.println(Thread.currentThread().getName() + ":" + ThreadLocalDemo.getThreadLocal());
-        ;
     }
 }
