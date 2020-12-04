@@ -40,8 +40,10 @@ public class SocketChannelTest {
                 }
 
             }
-        } catch (IOException | InterruptedException e) {
+        } catch (IOException e) {
             e.printStackTrace();
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
         } finally {
 
             try {
