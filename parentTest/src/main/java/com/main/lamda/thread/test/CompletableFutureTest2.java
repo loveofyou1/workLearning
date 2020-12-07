@@ -1,6 +1,7 @@
-package com.main.lamda.thread.entity;
+package com.main.lamda.thread.test;
 
 import com.google.common.collect.Lists;
+import com.main.lamda.thread.entity.Shop;
 
 import java.util.List;
 import java.util.concurrent.*;
@@ -8,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class CompletableFutureTest2 {
 
-    private static final long num = 10000000;
+    private static final long num = 1000000;
 
     private static List<Shop> shopList = Lists.newArrayList();
 
